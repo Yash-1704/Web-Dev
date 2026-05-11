@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #f9f0e3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+nav img{
+    width: 12vw;
+}
+.pages{
+    /* background-color: blueviolet; */
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.searchBox{
+    border:  2px solid black;
+    background-color: #f9f0e3;
+    width: 30vw;
+    height: 60px;
+    border-radius: 30px;
+    /* padding: 10px ; */
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.searchBox .left i{
+    color: #e8b663;
+    font-size: 30px;
+}
+.searchBox input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: fit-content;
+}
+.searchBox .right{
+    display: flex;
+    gap: 20px;
+}
